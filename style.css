@@ -1,5 +1,5 @@
 header {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Cedarville Cursive', cursive;
   font-size:30px;
   height:500px;
   padding:50px;
@@ -17,6 +17,8 @@ nav {
   display:flex;
   justify-content: space-around;
   text-decoration: none;
+  font-family: 'Poiret One', cursive;
+
 }
 
 a:link {
@@ -46,26 +48,54 @@ a:active {
 
 body {
   text-align: center;
-  font-family:Quicksand;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#504d59;
   margin:0;
-  background-color: lightblue;
+  background-color: #eff0f9;
+}
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
 }
   
 
 #Intro {
-  background-color:pink;
-  width:100%;
+  background-color:#e6e3f2;
+  margin:0;
+  padding:50px;
 }
 
 .container  {
+    width: 800px;
+    height: 800px;
+    margin:auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    
-    
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 /* resize images */
+
 .container img {
-    width: 100%;
-    height: auto;
+    width: 45%;
+    height: 45%;
+}
+
+#story {
+  padding:50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#family img {
+    width: 80%;
+    height: 80%;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+footer {
+font-family: 'Poiret One', cursive;
+padding:50px;
+background-color: #e6e3f2;
 }
