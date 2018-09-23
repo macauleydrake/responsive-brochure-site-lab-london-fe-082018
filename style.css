@@ -1,0 +1,71 @@
+header {
+  font-family: 'Poiret One', cursive;
+  font-size:30px;
+  height:500px;
+  padding:50px;
+  background-image: url(https://scontent-cdt1-1.cdninstagram.com/vp/0c0d5dfb5a2e8c38fb1d00a4c02caf00/5C189BC9/t51.2885-15/e35/40032578_306149900211158_2305910916941611008_n.jpg?_nc_eui2=AeEDVs6vIpSQOFJLpE-AF2ePHVgb_L6E3oyDH6GAFCDoy3hhxhweg2t6iZDQSM33Cz60JQEMunx7gKyvswnpYE1f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 25% 55%;
+  overflow:hidden;
+}
+
+nav {
+  font-size:20px;
+  margin-right: 100px;
+  margin-left:100px;
+  display:flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #7f8896;
+}
+
+/* visited link */
+a:visited {
+    color: #7f8896;
+}
+
+/* mouse over link */
+a:hover {
+    color: #a4bfab;
+}
+
+/* selected link */
+a:active {
+    color: #24254c;
+}
+
+
+body {
+  text-align: center;
+  font-family:Quicksand;
+  margin:0;
+  background-color: lightblue;
+}
+  
+
+#Intro {
+  background-color:pink;
+  width:100%;
+}
+
+.container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
