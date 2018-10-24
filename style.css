@@ -50,7 +50,7 @@ body {
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   color:#504d59;
-  margin:0;
+  margin:0px;
   background-color: #eff0f9;
 }
 h2 {
@@ -99,3 +99,10 @@ font-family: 'Poiret One', cursive;
 padding:50px;
 background-color: #e6e3f2;
 }
+
+@media (max-width:500px){
+  header {
+    font-size:12px;
+  }
+}
+
